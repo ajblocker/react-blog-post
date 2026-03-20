@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/blog/common/Header.jsx";
 import Footer from "./components/blog/common/Footer.jsx";
 import Blog from "./components/blog/Blog.jsx";
