@@ -11,15 +11,19 @@ function Blog() {
     date: "2026-03-17",
   };
   return (
-    <div>
-      <Content
-        title={blogPostContent.title}
-        content={blogPostContent.content}
-        author={blogPostContent.author}
-        date={blogPostContent.date}
-      />
-      <Comments />
-    </div>
+    <>
+      <div className="flex items-center bg-white p-6 py-16 h-120 rounded-lg shadow-lg border-gray-600">
+        <Content
+          title={blogPostContent.title}
+          content={blogPostContent.content}
+          author={blogPostContent.author}
+          date={blogPostContent.date}
+        />
+        <div>
+          <Comments />
+        </div>
+      </div>
+    </>
   );
 }
 

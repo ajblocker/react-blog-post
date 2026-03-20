@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <Header />
-      <div className="flex items-center justify-center bg-white p-6 py-4 rounded-xl shadow-md border-gray-300">
+      <div className="flex justify-center bg-white p-6 py-16 h-120">
         <Blog />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }
