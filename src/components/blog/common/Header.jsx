@@ -3,7 +3,7 @@ function Header() {
   return (
     //create navbar and website heading
     <div className="bg-blue-600 text-white py-4">
-      <h1 className="text-4xl">My Blog</h1>
+      <h1 className="text-5xl">My Blog</h1>
       <nav>
         <ul className="flex justify-center items-center md:justify-evenly">
           <li>

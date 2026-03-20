@@ -3,6 +3,7 @@ import Content from "./Content";
 
 //Blog component
 function Blog() {
+  //blog post object
   const blogPostContent = {
     title: "My First Blog Post",
     content:
@@ -11,8 +12,9 @@ function Blog() {
     date: "2026-03-17",
   };
   return (
+    //layout items beneath each other
     <>
-      <div className="flex items-center bg-white p-6 py-16 h-120 rounded-lg shadow-lg border-gray-600">
+      <div className="flex flex-col bg-white p-85 py-3 h-180 rounded-lg shadow-lg border-gray-600">
         <Content
           title={blogPostContent.title}
           content={blogPostContent.content}

@@ -1,6 +1,7 @@
 //Comments component
 function Comments() {
   return (
+    //setting shadows, hover effects, and font sizes
     <div>
       <h2 className="text-2xl py-4">Comments</h2>
       <textarea

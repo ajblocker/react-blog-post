@@ -6,6 +6,7 @@ import Blog from "./components/blog/Blog.jsx";
 //root component
 function App() {
   return (
+    //centers blog content and adjusts frame
     <>
       <Header />
       <div className="flex justify-center bg-white p-6 py-16 h-120">
